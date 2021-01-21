@@ -1,8 +1,8 @@
 {
     "name": "maheshwaghmare/wp-dev-remote-request",
     "type": "library",
-    "version": "0.0.1",
-    "description": "Process the rest API request and also cache the responses.",
+    "version": "1.0.0",
+    "description": "Cache the HTTP reqeust and store into the transient for given expiration time to avoid the remote requests.",
     "keywords": ["wordpress", "rest-api", "cache"],
     "homepage": "https://github.com/maheshwaghmare/wp-dev-remote-request",
     "license": "MIT",
