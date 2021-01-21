@@ -107,7 +107,9 @@ Let's see another example with additional parameters.
 
 ## How to request considered as unique request?
 
-The remote request data is stored into the transient. So, While storing the data into the transient it create a unique transient key with the help of the HTTP request URL.
+The remote request data is stored into the transient.
+
+So, While storing the data into the transient it create a unique transient key with the help of the HTTP request URL.
 
 E.g.
 
@@ -199,4 +201,5 @@ Below is the log of above code:
 ```
 
 Here, We can see the **first** request takes the **5 seconds** because it send the live request.
+
 But, The **second** and **third** request takes the **1 second** because it get the response from the transient.
