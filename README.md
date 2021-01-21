@@ -173,6 +173,8 @@ var_dump( $response );
 // )
 ```
 
+Visit http://packagist.org/packages/maheshwaghmare/wp-dev-remote-request
+
 ## Debugging
 
 If you enable the debug log and then try to send the request the you can see the logs into the `debug.log` file.
